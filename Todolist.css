@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  justify-items: center;
+  margin-bottom: -100px;
+  margin-top: 135px;
+  font-size: 39px;
+  font-family: "Roboto", sans-serif;
+}
+form {
+  text-align: center;
+}
+::placeholder {
+  color: #bdbdbd;
+}
+#email {
+  margin-top: 160px;
+  width: 240px;
+  padding: 9px;
+  margin-bottom: 13px;
+  background: #e8e8e8;
+  border: 1px grey;
+  height: 20px;
+  border-radius: 8px;
+  outline: none;
+}
+#pass {
+  outline: none;
+  padding: 10px;
+  width: 240px;
+  margin-left: 0px;
+  background: #e8e8e8;
+  border-radius: 8px;
+  height: 20px;
+  border: 1px #e8e8e8;
+}
+#show {
+  font-weight: bolder;
+  width: 52px;
+  height: 2px;
+  cursor: pointer;
+  border: 0px;
+  top: 46%;
+  font-family: "Roboto", sans-serif;
+  margin-left: -56px;
+  background: transparent;
+}
+#login {
+  width: 242px;
+  margin-top: 30px;
+  border-radius: 17px;
+  padding: 8px;
+  background: black;
+  color: white;
+}

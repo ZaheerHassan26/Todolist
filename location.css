@@ -1,0 +1,115 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.task {
+  padding: 20px;
+  font-size: 23px;
+}
+
+#task {
+  font-size: 23px;
+  border: 0;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.task-icon {
+  margin-top: 15px;
+  margin-bottom: 27px;
+  margin-left: 30px;
+}
+
+.loc-icon {
+  color: white;
+  background-color: black;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-left: -20px;
+  font-size: 23px;
+  padding: 12px;
+  width: 200px;
+}
+
+#loc-icon {
+  margin-left: 38px;
+}
+
+#loc {
+
+  cursor: pointer;
+  color: white;
+  font-size: 23px;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+#logout-icon {
+  font-size: 23px;
+  margin-left: 30px;
+  margin-bottom: 25px;
+
+}
+
+#logout {
+  cursor: pointer;
+  font-size: 23px;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.right {
+
+  flex-basis: 80%;
+}
+
+.icon-loc {
+  margin: 42px;
+  margin-left: 85px;
+  color: #575767;
+}
+
+#checkin {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-size: 15px;
+  color: #575767;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+#cur-loc {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 83px;
+  margin-top: -9px;
+  color: #575767;
+}
+
+p {
+  margin-left: 92px;
+}
+
+#pre-loc {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 83px;
+  color: #575767;
+}

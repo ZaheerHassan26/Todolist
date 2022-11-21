@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web-Task</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="webtask.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="upper">
+        <div class="task">
+          <i id="icon" class="fa-solid fa-list-check">
+            <button type="submit" id="task">Task</button></i>
+        </div>
+        <div class="loc">
+          <i id="loc-icon" class="fa-solid fa-location-dot">
+            <button type="submit" id="loc">Location</button></i>
+        </div>
+      </div>
+
+      <div class="logout">
+        <i id="logout-icon" class="fa-solid fa-arrow-right-from-bracket"></i>
+        <button type="submit" id="logout">Logout</button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="add-icon">
+        <i id="task-icon" class="fa-solid fa-plus"></i>
+        <button type="submit" id="addtask">Add new task</button>
+      </div>
+      <div id="incom">Incomplete</div>
+      <div id="givendata"></div>
+      <div id="complete">Completed</div>
+      <div id="completetask"></div>
+
+
+      <div id="overlay"></div>
+      <div id="popup">
+        <p>New Task</p>
+        <input type="text" placeholder="summary" id="textarea"></input>
+        <div>
+          <input type="text" placeholder="Description" id="descrip"></input>
+        </div>
+        <div>
+          <input type="" placeholder="Due date
+          yyyy-dd-mm hh:mm:ss " id="date"></input><br>
+        </div>
+        <button id="addbtn">Save</button>
+        <br>
+        <button type="submit" id="canbtn">Cancel</button>
+      </div>
+    </div>
+    <div id="Reminder">
+     <div class="upp"> 
+      <a id="Label"></a>
+      <div class="r-icon"><i id="r-icon"class="fa-regular fa-clock"></i></div>
+      <a id="des"></a>
+    </div>
+      <div class="btn">
+        <button id="skip">Skip</button>
+        <button id="remind">Remind me later</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="webtask.js"></script>
+
+  <script src="https://kit.fontawesome.com/f677c164bd.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

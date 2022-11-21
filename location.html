@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Location</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="location.css" />
+</head>
+
+<body>
+  <div class="container">
+
+
+    <div class="left">
+      <div class="task">
+        <div class="task-icon">
+          <i id="icon" class="fa-solid fa-list-check"></i>
+          <button type="submit" id="task">Task</button>
+        </div>
+        <div class="loc-icon">
+          <i id="loc-icon" class="fa-solid fa-location-dot">
+            <button type="submit" id="loc">Location</button></i>
+        </div>
+      </div>
+      <div class="logout">
+        <i id="logout-icon" class="fa-solid fa-arrow-right-from-bracket"></i>
+        <button type="submit" id="logout">Logout</button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="icon-loc">
+        <i id="add-icon" class="fa-solid fa-plus"></i>
+        <button type="submit" id="checkin">Check in</button>
+      </div>
+      <div id="cur-loc">Current Location</div>
+      <p id="currloc"></p>
+      <div id="pre-loc">Previous Location</div>
+    </div>
+  </div>
+  <script src="location.js"></script>
+  <script src="https://kit.fontawesome.com/f677c164bd.js" crossorigin="anonymous"></script>
+  </ul>
+</body>
+
+</html>
